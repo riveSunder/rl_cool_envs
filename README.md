@@ -18,10 +18,25 @@ OpenSafety is a safety-focused suite of RL environments using the [PyBullet](htt
 
 ### SafeLife
 * [Code](https://github.com/PartnershipOnAI/safelife) (Apache 2.0)
-* [Blog](https://www.partnershiponai.org/safelife/)
+* [Blog (Partnership on AI)](https://www.partnershiponai.org/safelife/)
+* [Blog (Weights and Biases)](https://wandb.ai/stacey/saferlife/reports/Measuring-Safety-in-Reinforcement-Learning--VmlldzoyNjk3MTM)
+* [Benchmarks](https://wandb.ai/safelife/v1dot2/benchmark)
 * [Paper](https://arxiv.org/abs/1912.01217)
 
+
+### AI safety gridworlds
+* [Code](https://github.com/deepmind/ai-safety-gridworlds) (Apache 2.0)
+* [Paper](https://arxiv.org/abs/1711.09883)
+* 
+
+<!-- ### Safer RL
+* [Code](https://github.com/RongRG/saferRL) (MIT License)
+* [Docs]() 
+This project is not yet ready to explore.
+-->
+
 ## Games
+
 
 ### LRCubeRL
 Learning Rubik's Cube with Reinforcement Learning
@@ -31,29 +46,12 @@ Learning Rubik's Cube with Reinforcement Learning
 Real simple games, like tic-tac-toe and hexapawn.
 * [Code](https://github.com/riveSunder/rl-simple-games)
 
-## Human/Machine Collaboration
+## Open-ended
 
-# Environments from YT
-
-### CARLE
+### CARLE [^note1]
 Cellular Automata reinforcement learning environment
 * [Code](https://github.com/rivesunder/carle)
 * [Blog post: How to break your random network distillation](https://rivesunder.gitlab.io/rl/2019/08/24/breaking_rnd.html)
-
- 
-# Cool and Little-Known Environments
-
-### balance-bot by yconst
-* [Code](https://github.com/yconst/balance-bot)
-* Blog [part I](https://backyardrobotics.eu/2017/11/27/build-a-balancing-bot-with-openai-gym-pt-i-setting-up/), [Part II](https://backyardrobotics.eu/2017/11/29/build-a-balancing-bot-with-openai-gym-pt-ii-the-robot-and-environment/)
-* Notes: This environment is part of a tutorial on building an RL environment using the open source [PyBullet](https://pybullet.org) physics engine. The task is a self-balancing robot that must learn to stay upright. I haven't experimented with the environment yet, but the tutorial on building robots with PyBullet is really useful. If that sounds interesting you'll also want to dive into the [PyBullet quickstart guide](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit)
-
-# Safety 
-
-# Multi-agent
-
-### Flatland
-[]()
 
 # Generalization
 
@@ -63,6 +61,6 @@ Cellular Automata reinforcement learning environment
 * [Blog](https://openai.com/blog/procgen-benchmark/)
 * [Paper (pdf)](https://cdn.openai.com/procgen.pdf)
 
-[^note1]: This is my own (RiveSunder's) work.
+[^note1]: These envs are my own (RiveSunder's) work.
 
 * Also check out [Awesome Deep RL](https://github.com/kengz/awesome-deep-rl) by kengz
