@@ -11,5 +11,6 @@ You can use the provided example of a constrained version of a simple Gaussian e
 <div align="center">
 Left to right. An agent evolved with only a locomotion reward (without a balance cost) falls over while moving forward. Agents evolved while constrained by an explicit cost signal learned to balance while moving, and agents evolved with a combined balance cost and locomotion reward were also able to learn balance and locomotion together. 
 </div>
+<br><br>
 
 OpenSafety was developed as an open source alternative to [Safety Gym](https://web.archive.org/web/20220717150118/https://openai.com/blog/safety-gym/). Safety Gym was devloped by Alex Ray, Joshua Achiam, and Dario Amodei while at OpenAI, and it depends on the MuJoCo physics simulator, which required a prohibitive license fee but has since been acquired by DeepMind for the [express purpose](https://www.deepmind.com/blog/open-sourcing-mujoco) of making it freely available. However, Safety Gym and OpenSafety are different enough to be considered on their own.  

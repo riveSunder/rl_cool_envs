@@ -29,20 +29,18 @@ OpenSafety is a safety-focused suite of RL environments using the [PyBullet](htt
 * [Paper](https://arxiv.org/abs/1711.09883)
 * 
 
-<!-- ### Safer RL
+### Safer RL
 * [Code](https://github.com/RongRG/saferRL) (MIT License)
-* [Docs]() 
-This project is not yet ready to explore.
--->
+* [Docs](https://saferrl.readthedocs.io/en/latest/) 
+This project is based on the template for [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) by Josh Achiam. It's far from complete, and may not include any new environments when it's done, but it is nominally under active development and there may be more to see in future. 
 
 ## Games
 
-
-### LRCubeRL
+### LRCubeRL [^note1]
 Learning Rubik's Cube with Reinforcement Learning
 * [Code](https://github.com/riveSunder/lrcuberl)
 
-### RL Simple Games
+### RL Simple Games [^note1]
 Real simple games, like tic-tac-toe and hexapawn.
 * [Code](https://github.com/riveSunder/rl-simple-games)
 
