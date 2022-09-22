@@ -1,9 +1,9 @@
 # RL cool envs
 
 
-## Safety Environments
+## Safety
 
-### Open Safety Gym[^note1]
+### _Open Safety Gym_[^note1]
 * [Code](https://github.com/riveSunder/OpenSafety) (MIT License)
 * [Example](https://github.com/riveSunder/SafeAgents)
 * [More details](pages/open_safety.md)
@@ -32,21 +32,22 @@ OpenSafety is a safety-focused suite of RL environments using the [PyBullet](htt
 ### Safer RL
 * [Code](https://github.com/RongRG/saferRL) (MIT License)
 * [Docs](https://saferrl.readthedocs.io/en/latest/) 
+
 This project is based on the template for [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) by Josh Achiam. It's far from complete, and may not include any new environments when it's done, but it is nominally under active development and there may be more to see in future. 
 
 ## Games
 
-### LRCubeRL [^note1]
+### _LRCubeRL_ [^note1]
 Learning Rubik's Cube with Reinforcement Learning
 * [Code](https://github.com/riveSunder/lrcuberl)
 
-### RL Simple Games [^note1]
+### _RL Simple Games_ [^note1]
 Real simple games, like tic-tac-toe and hexapawn.
 * [Code](https://github.com/riveSunder/rl-simple-games)
 
 ## Open-ended
 
-### CARLE [^note1]
+### _CARLE_ [^note1]
 Cellular Automata reinforcement learning environment
 * [Code](https://github.com/rivesunder/carle)
 * [Blog post: How to break your random network distillation](https://rivesunder.gitlab.io/rl/2019/08/24/breaking_rnd.html)
@@ -59,6 +60,6 @@ Cellular Automata reinforcement learning environment
 * [Blog](https://openai.com/blog/procgen-benchmark/)
 * [Paper (pdf)](https://cdn.openai.com/procgen.pdf)
 
-[^note1]: These envs are my own (RiveSunder's) work.
+[^note1]: envs in italics are the author's (RiveSunder's) work.
 
 * Also check out [Awesome Deep RL](https://github.com/kengz/awesome-deep-rl) by kengz
